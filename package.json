@@ -1,0 +1,15 @@
+{
+  "name": "start-website",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "scss": "sass scss:.",
+    "scss:watch": "sass scss:. --watch",
+    "serve": "live-server",
+    "dev": "concurrently -c auto,auto -n SCSS,SERVER \"npm run scss\" \"npm run serve\"",
+    "install:globaly": "npm install -g saas live-server concurrently"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
